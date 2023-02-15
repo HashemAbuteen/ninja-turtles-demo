@@ -1,0 +1,63 @@
+.card {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 20rem;
+    flex: 1;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card img {
+    height: 10rem;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .toppings-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .toppings-container button {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    width: 7rem;
+  }
+  
+  .toppings-container button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .toppings-container button:disabled {
+    background-color: #ccc;
+    color: #000;
+    cursor: not-allowed;
+  }
+  
+  .topping-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topping-button img {
+    height: 1rem;
+    margin-left: 0.5rem;
+    width: 1rem;
+  }
+  

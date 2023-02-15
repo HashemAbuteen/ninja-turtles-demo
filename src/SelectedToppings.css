@@ -1,0 +1,29 @@
+.selected-toppings-container {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+  }
+  
+  .selected-toppings-container h2 {
+    margin-top: 0;
+  }
+  
+  .selected-toppings-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .selected-toppings-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .selected-toppings-list li::before {
+    content: '•';
+    margin-right: 0.5rem;
+  }
+  
